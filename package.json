@@ -1,0 +1,52 @@
+{
+  "name": "inocoms-extension-pack",
+  "displayName": "inocoms Extension Pack",
+  "description": "",
+  "version": "0.0.3",
+  "publisher": "daekma",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "inocoms"
+  ],
+  "icon": "icon.png",
+  "extensionPack": [
+    "alefragnani.project-manager",
+    "alexdima.copy-relative-path",
+    "bmewburn.vscode-intelephense-client",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "ecmel.vscode-html-css",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "junstyle.php-cs-fixer",
+    "kevinkyang.auto-comment-blocks",
+    "mehedidracula.php-namespace-resolver",
+    "mgmcdermott.vscode-language-babel",
+    "ms-azuretools.vscode-docker",
+    "natizyskunk.sftp",
+    "shardulm94.trailing-spaces",
+    "vincaslt.highlight-matching-tag",
+    "visualstudioexptteam.vscodeintellicode",
+    "wmaurer.change-case",
+    "wongjn.php-sniffer",
+    "xabikos.javascriptsnippets",
+    "xdebug.php-debug"
+  ],
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daekma/inocoms-extension-pack.git"
+  },
+  "scripts": {
+    "package": "vsce package"
+  }
+}
