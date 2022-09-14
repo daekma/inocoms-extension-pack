@@ -10,7 +10,9 @@
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
+    "css.enabledLanguages": ["html", "twig"],
     "editor.wordWrapColumn": 120,
+    "emmet.includeLanguages": { "twig": "html" },
     "files.trimTrailingWhitespace": true,
     "php.suggest.basic": false,
     "prettier.printWidth": 120,
@@ -52,3 +54,4 @@
 | SFTP                           | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/natizyskunk.sftp)                       |
 | Task Explorer                  | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/spmeesseman.vscode-taskexplorer)        |
 | Trailing Spaces                | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/shardulm94.trailing-spaces)             |
+| Twig Language                  | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/junstyle.twig-language)                 |

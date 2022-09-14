@@ -2,7 +2,7 @@
     "name": "inocoms-extension-pack",
     "displayName": "inocoms Extension Pack",
     "description": "",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "publisher": "daekma",
     "engines": {
         "vscode": "^1.70.0"
@@ -41,7 +41,8 @@
         "alefragnani.project-manager",
         "natizyskunk.sftp",
         "spmeesseman.vscode-taskexplorer",
-        "shardulm94.trailing-spaces"
+        "shardulm94.trailing-spaces",
+        "junstyle.twig-language"
     ],
     "license": "",
     "repository": {
