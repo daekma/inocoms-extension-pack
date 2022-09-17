@@ -1,28 +1,5 @@
 # inocoms Extension Pack
 
-## Recommended Settings
-
-```json
-{
-    "[json][jsonc][javascript][html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    },
-    "css.enabledLanguages": ["html", "twig"],
-    "editor.wordWrapColumn": 120,
-    "emmet.includeLanguages": { "twig": "html" },
-    "files.trimTrailingWhitespace": true,
-    "php.suggest.basic": false,
-    "prettier.printWidth": 120,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "taskExplorer.exclude": ["**/node_modules/**", "**/vendor/**"],
-    "terminal.integrated.defaultProfile.windows": "PowerShell"
-}
-```
-
 ## Extensions
 
 | Extension                      | Version                                                                                                                         |

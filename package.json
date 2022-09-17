@@ -2,10 +2,10 @@
     "name": "inocoms-extension-pack",
     "displayName": "inocoms Extension Pack",
     "description": "",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "daekma",
     "engines": {
-        "vscode": "^1.70.0"
+        "vscode": "^1.71.0"
     },
     "categories": [
         "Extension Packs"
@@ -14,6 +14,18 @@
         "inocoms"
     ],
     "icon": "icon.png",
+    "activationEvents": [
+        "onCommand:inocomsExtensionPack.commands.recommendedSettings"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "inocomsExtensionPack.commands.recommendedSettings",
+                "title": "%inocomsExtensionPack.commands.recommendedSettings%"
+            }
+        ]
+    },
     "extensionPack": [
         "formulahendry.auto-close-tag",
         "kevinkyang.auto-comment-blocks",
@@ -44,12 +56,31 @@
         "shardulm94.trailing-spaces",
         "junstyle.twig-language"
     ],
-    "license": "",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/daekma/inocoms-extension-pack.git"
     },
     "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "node ./out/test/runTest.js",
         "package": "vsce package"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.71.0",
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^9.1.1",
+        "@types/node": "16.x",
+        "@typescript-eslint/eslint-plugin": "^5.31.0",
+        "@typescript-eslint/parser": "^5.31.0",
+        "eslint": "^8.20.0",
+        "glob": "^8.0.3",
+        "mocha": "^10.0.0",
+        "typescript": "^4.7.4",
+        "@vscode/test-electron": "^2.1.5"
     }
 }
