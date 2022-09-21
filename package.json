@@ -2,7 +2,7 @@
     "name": "inocoms-extension-pack",
     "displayName": "inocoms Extension Pack",
     "description": "",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "publisher": "daekma",
     "engines": {
         "vscode": "^1.71.0"
@@ -36,6 +36,7 @@
         "alexdima.copy-relative-path",
         "ms-azuretools.vscode-docker",
         "editorconfig.editorconfig",
+        "usernamehw.errorlens",
         "dbaeumer.vscode-eslint",
         "donjayamanne.githistory",
         "vincaslt.highlight-matching-tag",

@@ -13,6 +13,7 @@
 | Copy Relative Path             | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/alexdima.copy-relative-path)            |
 | Docker                         | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ms-azuretools.vscode-docker)            |
 | EditorConfig for VS Code       | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/editorconfig.editorconfig)              |
+| Error Lens                     | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/usernamehw.errorlens)                   |
 | ESLint                         | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/dbaeumer.vscode-eslint)                 |
 | Git History                    | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/donjayamanne.githistory)                |
 | Highlight Matching Tag         | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/vincaslt.highlight-matching-tag)        |
