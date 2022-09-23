@@ -5,7 +5,7 @@ export function activate(context: vscode.ExtensionContext) {
         const configuration = vscode.workspace.getConfiguration();
 
         configuration.update(
-            '[json][jsonc][javascript][html]',
+            '[json][javascript][html]',
             {
                 'editor.defaultFormatter': 'esbenp.prettier-vscode',
             },
