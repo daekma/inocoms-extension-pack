@@ -11,6 +11,7 @@
 | change-case                    | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/wmaurer.change-case)                    |
 | Composer                       | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/devsense.composer-php-vscode)           |
 | Copy Relative Path             | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/alexdima.copy-relative-path)            |
+| djLint                         | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/monosans.djlint)                        |
 | Docker                         | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ms-azuretools.vscode-docker)            |
 | EditorConfig for VS Code       | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/editorconfig.editorconfig)              |
 | Error Lens                     | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/usernamehw.errorlens)                   |

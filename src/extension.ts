@@ -6,19 +6,16 @@ export function activate(context: vscode.ExtensionContext) {
 
         configuration.update(
             '[json][javascript][html]',
-            {
-                'editor.defaultFormatter': 'esbenp.prettier-vscode',
-            },
+            { 'editor.defaultFormatter': 'esbenp.prettier-vscode' },
             vscode.ConfigurationTarget.Global
         );
         configuration.update(
             '[php]',
-            {
-                'editor.defaultFormatter': 'junstyle.php-cs-fixer',
-            },
+            { 'editor.defaultFormatter': 'junstyle.php-cs-fixer' },
             vscode.ConfigurationTarget.Global
         );
         configuration.update('css.enabledLanguages', ['html', 'twig'], vscode.ConfigurationTarget.Global);
+        configuration.update('djlint.enableLinting', false, vscode.ConfigurationTarget.Global);
         configuration.update('editor.wordWrapColumn', 120, vscode.ConfigurationTarget.Global);
         configuration.update('emmet.includeLanguages', { twig: 'html' }, vscode.ConfigurationTarget.Global);
         configuration.update('files.trimTrailingWhitespace', true, vscode.ConfigurationTarget.Global);
