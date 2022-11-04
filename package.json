@@ -2,7 +2,7 @@
     "name": "inocoms-extension-pack",
     "displayName": "inocoms Extension Pack",
     "description": "",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "publisher": "daekma",
     "engines": {
         "vscode": "^1.71.0"
@@ -34,7 +34,6 @@
         "wmaurer.change-case",
         "devsense.composer-php-vscode",
         "alexdima.copy-relative-path",
-        "monosans.djlint",
         "ms-azuretools.vscode-docker",
         "editorconfig.editorconfig",
         "usernamehw.errorlens",

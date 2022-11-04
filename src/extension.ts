@@ -15,7 +15,6 @@ export function activate(context: vscode.ExtensionContext) {
             vscode.ConfigurationTarget.Global
         );
         configuration.update('css.enabledLanguages', ['html', 'twig'], vscode.ConfigurationTarget.Global);
-        configuration.update('djlint.enableLinting', false, vscode.ConfigurationTarget.Global);
         configuration.update('editor.wordWrapColumn', 120, vscode.ConfigurationTarget.Global);
         configuration.update('emmet.includeLanguages', { twig: 'html' }, vscode.ConfigurationTarget.Global);
         configuration.update('files.trimTrailingWhitespace', true, vscode.ConfigurationTarget.Global);
