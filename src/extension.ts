@@ -23,36 +23,35 @@ export function activate(context: vscode.ExtensionContext) {
         configuration.update('prettier.singleQuote', true, vscode.ConfigurationTarget.Global);
         configuration.update('prettier.tabWidth', 4, vscode.ConfigurationTarget.Global);
         configuration.update(
-            'taskExplorer.exclude',
-            ['**/node_modules/**', '**/vendor/**'],
-            vscode.ConfigurationTarget.Global
-        );
-        configuration.update(
             'terminal.integrated.defaultProfile.windows',
             'PowerShell',
             vscode.ConfigurationTarget.Global
         );
+        configuration.update('taskExplorer.enableAnsiconForAnt', false, vscode.ConfigurationTarget.Global);
+        configuration.update(
+            'taskExplorer.enabledTasks',
+            {
+                ant: false,
+                bash: false,
+                gradle: false,
+                grunt: false,
+                gulp: false,
+                make: false,
+                maven: false,
+                perl: false,
+                pipenv: false,
+                python: false,
+                ruby: false,
+                tsc: false,
+                workspace: false,
+            },
+            vscode.ConfigurationTarget.Global
+        );
         configuration.update(
             'taskExplorer.exclude',
             ['**/node_modules/**', '**/vendor/**'],
             vscode.ConfigurationTarget.Global
         );
-        configuration.update('taskExplorer.enableAnsiconForAnt', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableAnt', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableAppPublisher', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableBash', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableGradle', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableGrunt', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableGulp', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableMake', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableMaven', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableNsis', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enablePerl', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enablePipenv', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enablePython', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableRuby', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableTsc', false, vscode.ConfigurationTarget.Global);
-        configuration.update('taskExplorer.enableWorkspace', false, vscode.ConfigurationTarget.Global);
     });
 
     context.subscriptions.push(disposable);

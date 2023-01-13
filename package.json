@@ -2,7 +2,7 @@
     "name": "inocoms-extension-pack",
     "displayName": "inocoms Extension Pack",
     "description": "",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "publisher": "daekma",
     "engines": {
         "vscode": "^1.71.0"
