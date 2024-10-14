@@ -2,7 +2,7 @@
     "name": "inocoms-extension-pack",
     "displayName": "inocoms Extension Pack",
     "description": "",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "publisher": "daekma",
     "engines": {
         "vscode": "^1.71.0"
@@ -14,9 +14,7 @@
         "inocoms"
     ],
     "icon": "icon.png",
-    "activationEvents": [
-        "onCommand:inocomsExtensionPack.commands.recommendedSettings"
-    ],
+    "activationEvents": [],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
@@ -32,7 +30,6 @@
         "formulahendry.auto-rename-tag",
         "mgmcdermott.vscode-language-babel",
         "wmaurer.change-case",
-        "devsense.composer-php-vscode",
         "alexdima.copy-relative-path",
         "ms-azuretools.vscode-docker",
         "editorconfig.editorconfig",
@@ -45,9 +42,9 @@
         "xabikos.javascriptsnippets",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
+        "devsense.phptools-vscode",
         "junstyle.php-cs-fixer",
         "xdebug.php-debug",
-        "bmewburn.vscode-intelephense-client",
         "mehedidracula.php-namespace-resolver",
         "shevaua.phpcs",
         "esbenp.prettier-vscode",

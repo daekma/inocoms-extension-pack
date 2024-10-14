@@ -18,15 +18,9 @@ export function activate(context: vscode.ExtensionContext) {
         configuration.update('editor.wordWrapColumn', 120, vscode.ConfigurationTarget.Global);
         configuration.update('emmet.includeLanguages', { twig: 'html' }, vscode.ConfigurationTarget.Global);
         configuration.update('files.trimTrailingWhitespace', true, vscode.ConfigurationTarget.Global);
-        configuration.update('php.suggest.basic', false, vscode.ConfigurationTarget.Global);
         configuration.update('prettier.printWidth', 120, vscode.ConfigurationTarget.Global);
         configuration.update('prettier.singleQuote', true, vscode.ConfigurationTarget.Global);
         configuration.update('prettier.tabWidth', 4, vscode.ConfigurationTarget.Global);
-        configuration.update(
-            'terminal.integrated.defaultProfile.windows',
-            'PowerShell',
-            vscode.ConfigurationTarget.Global
-        );
         configuration.update('taskExplorer.enableAnsiconForAnt', false, vscode.ConfigurationTarget.Global);
         configuration.update(
             'taskExplorer.enabledTasks',
