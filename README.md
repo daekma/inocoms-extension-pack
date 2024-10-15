@@ -11,6 +11,7 @@
 | change-case                    | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/wmaurer.change-case)                    |
 | Copy Relative Path             | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/alexdima.copy-relative-path)            |
 | Docker                         | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ms-azuretools.vscode-docker)            |
+| DotENV                         | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/mikestead.dotenv)                       |
 | EditorConfig for VS Code       | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/editorconfig.editorconfig)              |
 | Error Lens                     | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/usernamehw.errorlens)                   |
 | ESLint                         | ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/dbaeumer.vscode-eslint)                 |
